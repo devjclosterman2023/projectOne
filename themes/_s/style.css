@@ -967,3 +967,11 @@ textarea {
 	margin-right: auto;
 	margin-bottom: 1.5em;
 }
+
+#post-1 {
+	display: none;
+}
+
+#secondary {
+	display: none;
+}
