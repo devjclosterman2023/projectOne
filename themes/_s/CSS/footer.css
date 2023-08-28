@@ -19,12 +19,16 @@
   text-decoration: none;
 }
 
+.mob-icon-menu  {
+    margin: 15px;
+}
+
 .secondRow {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding-top: 20px;
-    max-width: 80%;
+    max-width: 77%;
     margin: 0 auto;
     position: relative;
 }
@@ -44,7 +48,7 @@
 
 .copyright {
    position: relative;
-   left: -70px;
+   left: -90px;
 }
 
 #primary-menu {
@@ -100,11 +104,67 @@ opacity: 1;
     margin: 0 auto;
 }
 
+.two-col-container-test > .wp-block-group__inner-container {
+    display: flex; 
+}
 
+ .googlemap_container {
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+}
+
+.googlemap_container iframe {
+    width: 100%;
+    height: 100%;
+}
+
+.gform-container-test {
+    width: 50%;
+    background-color: #9ec4ce;
+}
+.gf_browser_unknown {
+    max-width: 60%;
+    margin: 0 auto;
+}
+
+#colophon {
+    margin-top: -50px;
+}
+
+.site-info {
+    margin-right: 60px;
+}
+
+
+/* form styling */
+
+#input_2_1_3 {
+    background-color: #ebf0ec;
+}
+#input_2_1_6 {
+    background-color: #ebf0ec;
+}
+#input_2_2 {
+    background-color: #ebf0ec;
+}
+#input_2_2_2 {
+    background-color: #ebf0ec;
+}
+#input_2_3 {
+    background-color: #ebf0ec;
+}
 /* /////////////////Media Queries///////////////// */
 @media screen and (max-width: 450px) {
   .header_overlay {
     font-size: 50px !important;
+    text-align: center;
+  }
+  .text_sizing {
+    font-size: 18px !important;
+  }
+  .text_resize {
+    font-size: 24px !important;
   }
   .wp-block-columns {
     justify-content: center !important;
@@ -116,8 +176,24 @@ opacity: 1;
     font-size: 14px !important;
   }
   .spacer {
-    display: none;
+    height: 10px !important;
   }
+  .header_image {
+    height: 200px;
+    width: 350px;
+  }
+  .two-col-container-test {
+    display: flex;
+  }
+    .two-col-container-test > div {
+        flex-direction: column;
+    }
+    .gform-container-test {
+        width: 100%;
+    }
+    .googlemap_container {
+        width: 100%;
+    }
 }
 @media screen and (max-width: 750) {
     .form_styling {
@@ -134,7 +210,23 @@ opacity: 1;
         flex-direction: column;
         display: flex;
         font-size: 75px !important;
+        text-align: center;
     }
+    .spacer {
+        display: none;
+      }
+      .text-resize {
+        font-size: 28px !important;
+      }
+      .text_sizing {
+        font-size: 18px !important;
+      }
+      .flex-stack {
+        display: flex;
+}
+.flex-stack div {
+     flex-direction: row-reverse;
+}
     .wp-block-columns {
       justify-content: center !important;
     }

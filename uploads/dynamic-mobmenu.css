@@ -4,7 +4,7 @@
 			top: 32px!important;
 		}
 				body.admin-bar .mobmenu-search-holder {
-				top: 82px!important;
+				top: 132px!important;
 		}
 }
 
@@ -17,10 +17,10 @@
 		top: 0px!important;
 	}
 		body.admin-bar .mobmenu-search-holder {
-		top: 96px!important;
+		top: 146px!important;
 	}
 	body.admin-bar  .mob-menu-slideout .mobmenu-search-holder {
-		top: 50px!important;
+		top: 100px!important;
 	}
 
 }
@@ -59,14 +59,14 @@
 		color: #FFF;
 	}
 	.mobmenul-container i {
-		color: #FFF;
+		color: #000000;
 	}
 	.mobmenul-container img {
-		max-height:  40px;
+		max-height:  90px;
 		float: left;
 	}
 	.mobmenur-container img {
-		max-height:  40px;
+		max-height:  90px;
 		float: right;
 	}
 	.mob-expand-submenu i {
@@ -156,7 +156,7 @@
 		top: 10px;
 		margin-left: 5px;
 		margin-top: 0px;
-		height: 50px;
+		height: 100px;
 		float: left;
 	}
 	.mobmenur-container {
@@ -169,16 +169,16 @@
 		text-align:   center;
 		margin-left:  0;
 		margin-right: 0;
-		height:       50px;
+		height:       100px;
 			}
 	.mob-menu-header-holder {
 		width:  100% ;
-		background-color: #111111 ;
-		height: 50px ;
+		background-color: #ffffff ;
+		height: 100px ;
 		position:fixed;
 	}
 	body.mob-menu-overlay, body.mob-menu-slideout, body.mob-menu-slideout-over, body.mob-menu-slideout-top {
-		padding-top: 50px;
+		padding-top: 100px;
 	}
 		.mobmenul-container, .mobmenur-container{
 		position: absolute; 
@@ -250,15 +250,15 @@
 	}
 	/*End of Mobmenu Slide Over */
 	.mobmenu .headertext { 
-		color: #FFF ;
+		color: #000000 ;
 		text-decoration: none;
 	}
 	.headertext span {
 		position: initial;
-		line-height: 50px;
+		line-height: 100px;
 	}
 	.mobmenu-search-holder {
-		top: 50px;
+		top: 100px;
 	}
 	/*Premium options  */
 	
@@ -308,9 +308,9 @@
 	
 	.mob-standard-logo {
 		display: inline-block;
-		height:50px!important;	}
+		height:100px!important;	}
 	.mob-retina-logo {
-		height:50px!important;	}
+		height:100px!important;	}
 	.mobmenu-content #mobmenuleft > li > a:hover {
 		background-color: #666;
 	}
