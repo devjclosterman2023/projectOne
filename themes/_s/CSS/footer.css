@@ -1,0 +1,172 @@
+#colophon {
+    background-color:#0d4054;
+    height: 366px;
+    color: #d7bd8b;
+}
+
+.site-info ul {
+    display: flex;
+    /* width: 100%; */
+    max-width: 80%;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 60px;
+    list-style: none;
+}
+
+.site-info ul a{
+  text-decoration: none;
+}
+
+.secondRow {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    max-width: 80%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.clientPortal {
+    background-color: transparent;
+    border: 2px solid #D7BD8A;
+    color: inherit;
+    font-weight: bold;
+    display: flex;
+}
+
+.socialMedia {
+    color: white;
+    font-size: 50px;
+}
+
+.copyright {
+   position: relative;
+   left: -70px;
+}
+
+#primary-menu {
+    display: none;
+}
+
+.gform_title {
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-600) var(--unnamed-font-size-40)/var(--unnamed-line-spacing-58) var(--unnamed-font-family-crimson-text);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-0d4054);
+    text-align: left;
+    font: normal normal 600 40px/58px Crimson Text;
+    letter-spacing: 0px;
+    color: #0D4054;
+    opacity: 1;
+}
+
+.form_styling {
+    padding: 50px;
+} 
+
+#gform_submit_button_2 {
+border: 2px solid #0D4054;
+opacity: 1;
+    /* UI Properties */
+    font: var(--unnamed-font-style-normal) normal bold 20px/27px Segoe UI;
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-0d4054);
+    text-align: center;
+    font: normal normal bold 20px/27px Segoe UI;
+    letter-spacing: 0px;
+    color: #0D4054;
+    opacity: 1;
+    background-color: #9ec4ce;
+}
+
+.margin {
+    margin: 50px;
+}
+/* /////////////////Globals///////////////// */
+.m-w-70 {
+    max-width: 70%;
+    margin: 0 auto;
+}
+
+.m-w-80 {
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.m-w-90 {
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+
+/* /////////////////Media Queries///////////////// */
+@media screen and (max-width: 450px) {
+  .header_overlay {
+    font-size: 50px !important;
+  }
+  .wp-block-columns {
+    justify-content: center !important;
+  }
+  .mobile_resize {
+    font-size: 24px !important;
+  }
+  .mobile_friendly {
+    font-size: 14px !important;
+  }
+  .spacer {
+    display: none;
+  }
+}
+@media screen and (max-width: 750) {
+    .form_styling {
+        padding: 0px 100px 0px 75px;
+    }
+    .flex-column {
+        flex-direction: column;
+        display: flex;
+    }
+}
+
+@media (min-width: 450px) and (max-width: 900px) {
+    .header_overlay  {
+        flex-direction: column;
+        display: flex;
+        font-size: 75px !important;
+    }
+    .wp-block-columns {
+      justify-content: center !important;
+    }
+    .mobile_resize {
+        font-size: 24px !important;
+      }
+      .mobile_friendly {
+        font-size: 14px !important;
+      }
+}
+
+@media (min-width: 900px) and (max-width: 1200px) {
+    .mobile_resize {
+        font-size: 40px !important;
+      }
+}
+
+@media screen and (max-width: 1220px) {
+#colophon ul {
+    display: none;
+}
+#colophon div {
+    text-align: center;
+    left: -8px;
+}
+.secondRow {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.gform_2 {
+    padding: 50px;
+}
+}
