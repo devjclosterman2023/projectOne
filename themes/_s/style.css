@@ -975,3 +975,25 @@ textarea {
 #secondary {
 	display: none;
 }
+
+
+/* ////////////////////////////////////// */
+.rose_background {
+ background-image: url('/wp-content/uploads/2023/08/Mask-Group-4.png');
+}
+
+.rose-background {
+	background-image: url('/wp-content/uploads/2023/08/Mask-Group-5.png');
+}
+
+.entry-title {
+	display: none;
+}	
+
+.margin-none {
+	margin-bottom: 0px;
+}
+
+.adjust_height {
+	height: 650px;
+}

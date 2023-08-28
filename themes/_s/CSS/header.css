@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+}
+
+.header_overlay {
+    font-family: 'Crimson Text', serif;
+    top: 383px;
+left: 523px;
+/* width: 1000Spx; */
+width: 100%;
+height: 200px;
+line-height: 95%;
+/* font-size: clamp(25px, 50px, 100px) !important; */
+}
+
+
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Crimson Text', serif;
+}
+
+.header_image {
+    background-image: url('/wp-content/uploads/2023/08/Mask-Group-3.png');
+    height: 425px;
+    width: 780px;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+}
+
+  
+    /* Changing link color on hover */
+a {
+        color: #606254 !important;
+    }
+
+#site-navigation ul {
+  padding-right: 60px;
+}
+
+.mob-standard-logo {
+    padding: 10px;
+}
+
+
+@media screen and (max-width: 950px) {
+    .header_image {
+        height: 200px;
+        width: 80%;
+    }
+    .header_overlay {
+        font-size: 50px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .header_image {
+        height: 200px;
+        width: 80%;
+    }
+    .header_overlay {
+        font-size: 24px;
+    }
+}
