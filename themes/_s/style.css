@@ -997,3 +997,11 @@ textarea {
 .adjust_height {
 	height: 650px;
 }
+
+.two-col-container-test {
+	margin-top: -30px;
+}
+
+.margin_zero {
+	margin-top: -40px;
+}
