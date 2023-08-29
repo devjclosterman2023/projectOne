@@ -171,6 +171,7 @@ opacity: 1;
   }
   .mobile_resize {
     font-size: 24px !important;
+    text-align: center !important;
   }
   .mobile_friendly {
     font-size: 14px !important;
@@ -261,4 +262,10 @@ opacity: 1;
 .gform_2 {
     padding: 50px;
 }
+}
+
+@media screen and (max-width: 1450px) {
+    .flex-column {
+        flex-direction: column;
+    }
 }
