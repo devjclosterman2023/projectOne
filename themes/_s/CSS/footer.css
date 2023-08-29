@@ -71,8 +71,8 @@
 } 
 
 #gform_submit_button_2 {
-border: 2px solid #0D4054;
-opacity: 1;
+    border: 2px solid #0D4054;
+    opacity: 1;
     /* UI Properties */
     font: var(--unnamed-font-style-normal) normal bold 20px/27px Segoe UI;
     letter-spacing: var(--unnamed-character-spacing-0);
@@ -88,7 +88,16 @@ opacity: 1;
 .margin {
     margin: 50px;
 }
+
+/* .float_left {
+    margin-right: 32rem;
+} */
 /* /////////////////Globals///////////////// */
+.m-w-60 {
+    max-width: 50%;
+    margin: 0 auto;
+}
+
 .m-w-70 {
     max-width: 70%;
     margin: 0 auto;
@@ -135,7 +144,6 @@ opacity: 1;
 .site-info {
     margin-right: 60px;
 }
-
 
 /* form styling */
 
